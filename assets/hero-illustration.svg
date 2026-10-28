@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 430" fill="none">
+  <rect x="88" y="55" width="385" height="270" rx="16" fill="#F7F9FC" stroke="#D8E1EF" stroke-width="2"/>
+  <rect x="105" y="73" width="351" height="233" rx="8" fill="#fff" stroke="#E5EAF2"/>
+  <path d="M105 105h351" stroke="#E5EAF2"/>
+  <circle cx="124" cy="89" r="4" fill="#D7DFEB"/><circle cx="139" cy="89" r="4" fill="#D7DFEB"/><circle cx="154" cy="89" r="4" fill="#D7DFEB"/>
+  <rect x="126" y="129" width="132" height="157" rx="5" fill="#F8FAFD"/>
+  <path d="M143 151h48M143 166h88M143 181h64M143 211h77M143 226h91M143 241h55M143 256h74" stroke="#B8C5D6" stroke-width="5" stroke-linecap="round"/>
+  <path d="M143 151h24M143 211h35" stroke="#3765A6" stroke-width="5" stroke-linecap="round"/>
+  <rect x="274" y="129" width="164" height="157" rx="5" fill="#fff" stroke="#E5EAF2"/>
+  <text x="290" y="151" fill="#667085" font-family="Arial,sans-serif" font-size="10" font-weight="600">DATA OVERVIEW</text>
+  <path d="M292 253h129M292 222h129M292 191h129" stroke="#EDF1F6"/>
+  <path d="M299 237c17-6 22-33 39-22s22 9 35-12 23 11 36-5 20 4 30-13" stroke="#4778BE" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="373" cy="203" r="4" fill="#4778BE"/>
+  <path d="M55 325h450l-42 42H97z" fill="#E9EEF6" stroke="#D8E1EF" stroke-width="2"/>
+  <path d="M216 336h128l-12 12h-104z" fill="#D3DCE9"/>
+  <rect x="46" y="384" width="468" height="2" rx="1" fill="#E5EAF2"/>
+  <circle cx="466" cy="64" r="18" fill="#EFF6FF"/><path d="M466 56v16m-8-8h16" stroke="#4778BE" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="79" cy="157" r="9" fill="#EFF6FF"/><circle cx="79" cy="157" r="3" fill="#4778BE"/>
+  <path d="M470 267l8 8 16-18" stroke="#4778BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

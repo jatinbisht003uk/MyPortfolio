@@ -1,0 +1,8 @@
+# Personal files that should only be published intentionally
+assets/profile.jpg
+assets/resume.pdf
+
+# Editor and operating system files
+.DS_Store
+.vscode/
+Thumbs.db

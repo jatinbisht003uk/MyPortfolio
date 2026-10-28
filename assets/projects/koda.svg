@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440">
+  <rect width="800" height="440" fill="#F3F6FA"/>
+  <rect x="67" y="39" width="666" height="362" rx="14" fill="#fff" stroke="#DFE5EE"/>
+  <path d="M67 88h666" stroke="#E6EAF0"/>
+  <circle cx="94" cy="63" r="5" fill="#D4DCE8"/><circle cx="112" cy="63" r="5" fill="#D4DCE8"/><circle cx="130" cy="63" r="5" fill="#D4DCE8"/>
+  <text x="161" y="68" fill="#344054" font-family="Arial,sans-serif" font-size="12" font-weight="600">AlgoVisualizer</text>
+  <rect x="89" y="108" width="622" height="49" rx="7" fill="#F7F9FC"/>
+  <text x="107" y="129" fill="#667085" font-family="Arial,sans-serif" font-size="9">ALGORITHM</text><text x="107" y="146" fill="#172554" font-family="Arial,sans-serif" font-size="12" font-weight="600">Binary Search</text>
+  <rect x="250" y="119" width="76" height="25" rx="4" fill="#fff" stroke="#E2E7EF"/><text x="268" y="135" fill="#475467" font-family="Arial,sans-serif" font-size="9">Run ▶</text>
+  <rect x="338" y="119" width="83" height="25" rx="4" fill="#fff" stroke="#E2E7EF"/><text x="355" y="135" fill="#475467" font-family="Arial,sans-serif" font-size="9">Reset ↺</text>
+  <text x="632" y="135" fill="#667085" font-family="Arial,sans-serif" font-size="9">STEP 03 / 06</text>
+  <rect x="89" y="174" width="622" height="202" rx="8" fill="#FBFCFE" stroke="#E7EBF1"/>
+  <text x="111" y="200" fill="#667085" font-family="Arial,sans-serif" font-size="10" font-weight="600">SEARCHING SORTED ARRAY</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle"><rect x="142" y="236" width="62" height="62" rx="8" fill="#fff" stroke="#DCE3ED"/><text x="173" y="273" fill="#344054" font-size="17">2</text><rect x="215" y="236" width="62" height="62" rx="8" fill="#EFF6FF" stroke="#C9DBF6"/><text x="246" y="273" fill="#344054" font-size="17">5</text><rect x="288" y="236" width="62" height="62" rx="8" fill="#2563EB"/><text x="319" y="273" fill="#fff" font-size="17" font-weight="700">8</text><rect x="361" y="236" width="62" height="62" rx="8" fill="#EFF6FF" stroke="#C9DBF6"/><text x="392" y="273" fill="#344054" font-size="17">12</text><rect x="434" y="236" width="62" height="62" rx="8" fill="#fff" stroke="#DCE3ED"/><text x="465" y="273" fill="#344054" font-size="17">17</text></g>
+  <path d="M173 317h292" stroke="#BCC8D8" stroke-width="2"/><path d="M319 308v18" stroke="#2563EB" stroke-width="2"/><circle cx="319" cy="317" r="5" fill="#2563EB"/>
+  <rect x="533" y="217" width="150" height="130" rx="7" fill="#fff" stroke="#E7EBF1"/><text x="550" y="240" fill="#667085" font-family="Arial,sans-serif" font-size="9">CURRENT STEP</text><text x="550" y="267" fill="#172554" font-family="Arial,sans-serif" font-size="12" font-weight="600">Check midpoint</text><path d="M550 282h112" stroke="#E7EBF1"/><text x="550" y="304" fill="#667085" font-family="Arial,sans-serif" font-size="9">Compare target with</text><text x="550" y="319" fill="#667085" font-family="Arial,sans-serif" font-size="9">the middle value.</text>
+</svg>
