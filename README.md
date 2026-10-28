@@ -10,7 +10,7 @@ A responsive personal portfolio for showcasing software projects, data science i
 - Client-side project filters for Machine Learning, Data Science, Web Development, and Tools
 - Lightweight original SVG project illustrations
 - Reveal-on-scroll effects, reduced-motion support, dynamic copyright year, and back-to-top navigation
-- Configurable GitHub, LinkedIn, coding profile, email, and resume links
+- Configurable GitHub, LinkedIn, LeetCode, email, and resume links
 - No framework, backend, build step, or package installation required
 
 ## Technology
@@ -36,7 +36,7 @@ MyPortfolio/
         └── koda.svg
 ```
 
-No profile photo or resume is included. The site checks for `assets/resume.pdf` and only displays working resume actions when the file is present.
+No profile photo is included. The resume PDF is kept local and ignored by Git for privacy. The site only displays working resume actions when `assets/resume.pdf` is available.
 
 ## Run locally
 
@@ -54,15 +54,15 @@ Edit `SITE_CONFIG` near the top of `script.js`:
 - **Location, education, learning goals:** Replace the bracketed placeholders in the About cards in `index.html`.
 - **Skills:** Edit the category and `items` arrays in `SITE_CONFIG.skills`. Remove items that don’t represent your skills.
 - **GitHub:** The profile is configured as `https://github.com/jatinbisht003uk`.
-- **LinkedIn and coding profile:** Fill `profiles.linkedin` and `profiles.coding` with real profile URLs. Empty or invalid placeholder links are not shown.
-- **Email:** Set `email` to your real address. The mail button will only appear for a valid address.
+- **LinkedIn and LeetCode:** Edit `profiles.linkedin` and `profiles.leetcode`. Empty or invalid placeholder links are not shown.
+- **Email:** The email is configured in `SITE_CONFIG.email`; change it there if needed.
 - **Journey:** Edit `SITE_CONFIG.journey`. Entries marked `placeholder: true` are hidden until you replace them with accurate details and remove the placeholder property. Do not add experience you have not had.
 
 ## Add or edit projects
 
 Edit the `SITE_CONFIG.projects` array in `script.js`. Each entry has `title`, `category`, `description`, `technologies`, `repository`, `demo`, `image`, `featured`, and `status` properties. Use an empty string for unknown repository or demo URLs; these are omitted from the card and never made clickable. Categories should be one of `Machine Learning`, `Data Science`, `Web Development`, or `Tools` to work with the filter buttons. Add a lightweight image under `assets/projects/` or reuse one of the existing illustrations.
 
-The repository for ChurnGuardAI is prefilled as supplied. Other project repository/demo URLs remain empty until you provide real destinations.
+ChurnGuardAI, SketchSync, and AlgoVisualizer have their supplied repository and demo URLs configured. Add future project URLs to their entries in `SITE_CONFIG.projects`.
 
 ## Add your resume
 
@@ -72,20 +72,17 @@ Add the resume you intend to publish at `assets/resume.pdf`. The page checks tha
 
 Set `SITE_CONFIG.email` in `script.js` to a real address. The page uses a `mailto:` link and does not send data to a server. There is no pretend contact form or backend.
 
-## GitHub upload
+## Push future changes to GitHub
 
-This folder is not currently initialized as a Git repository. From this project directory, create a repository named `MyPortfolio` on GitHub (leave it empty), then run:
+This project is connected to `https://github.com/jatinbisht003uk/MyPortfolio`. After editing files, run:
 
 ```sh
-git init
 git add index.html style.css script.js README.md .gitignore favicon.svg robots.txt assets
-git commit -m "Build personal portfolio"
-git branch -M main
-git remote add origin https://github.com/jatinbisht003uk/MyPortfolio.git
-git push -u origin main
+git commit -m "Update portfolio"
+git push
 ```
 
-These commands are provided for you to run; this project has not been pushed and no Git remote was changed.
+The resume is excluded by `.gitignore`. Only publish it if you intentionally want the PDF to be publicly accessible.
 
 ## Publish with GitHub Pages
 

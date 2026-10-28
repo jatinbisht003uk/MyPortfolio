@@ -157,8 +157,6 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--blue); outline-
 /* Resume, contact, footer */
 .resume { padding-block: 58px; }
 .resume-inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: 0; border: 0; border-radius: 0; background: transparent; }
-.resume-mark { display: grid; width: 43px; height: 43px; flex: none; place-items: center; border-radius: 7px; color: var(--blue); background: var(--blue-soft); }
-.resume-mark svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 .resume-copy { flex: 1; }
 .resume-copy .section-index { margin-bottom: 12px; }
 .resume-copy h2 { margin: 0; font-size: 30px; }
